@@ -16,5 +16,6 @@ namespace projekt_systemu_rejestracji
         {
             InitializeComponent();
         }
+
     }
 }
