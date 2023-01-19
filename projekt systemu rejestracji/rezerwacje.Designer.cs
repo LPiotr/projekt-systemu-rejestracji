@@ -37,6 +37,7 @@
             this.rodzaj_pokoju = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -108,11 +109,21 @@
             this.button1.Text = "Powrót";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(665, 54);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 67);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Usuń wybraną Rezerwacje";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // rezerwacje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 230);
+            this.ClientSize = new System.Drawing.Size(756, 330);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
@@ -135,5 +146,6 @@
         private DataGridViewTextBoxColumn rodzaj_pokoju;
         private Label label1;
         private Button button1;
+        private Button button2;
     }
 }
